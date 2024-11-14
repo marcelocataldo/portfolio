@@ -1,0 +1,17 @@
+#rodape{
+    display: block;
+}
+
+#rodape p{
+    font-family: 'Courier New', Courier, monospace ;
+    font-weight: 600;
+    text-align: center;
+    padding: 40px;
+}
+
+@media (max-width: 960px){
+    #rodape p{
+        font-size: 10pt;
+        padding: 5px;
+    }
+}

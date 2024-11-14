@@ -1,0 +1,64 @@
+#roadmap{
+    display: block;
+}
+
+.containerRoadmap{
+    display: grid;
+    grid-template-columns: 2fr 3px 3fr;
+    gap: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20pt;
+    font-weight: 600;
+}
+
+.tituloRoadMap{
+    color: #EEEEEE;
+    place-self: center;
+    font-size: 35pt;
+}
+
+.divisoriaRoadMap{
+    background-color: #AA14F0;
+    text-align: center;
+}
+
+.listaRoadMap ul{
+    color: #EEEEEE;
+}
+
+.listaRoadMap li{
+    margin: 40px 0 40px 0;
+    list-style: none;
+}
+
+@media (max-width: 960px){
+    .containerRoadmap{
+        display: block;
+        font-size: 15pt;
+    }
+
+    .listaRoadMap li{
+        margin: 40px 0 40px 0;
+        list-style: disc ;
+    }
+}
+
+@media (max-width: 720px){
+    .tituloRoadMap{
+        font-size: 20pt;
+    }
+
+    .containerRoadmap{
+        font-size: 15pt;
+    }
+}
+
+@media (max-width: 540px){
+    .tituloRoadMap{
+        font-size: 15pt;
+    }
+
+    .containerRoadmap{
+        font-size: 10pt;
+    }
+}

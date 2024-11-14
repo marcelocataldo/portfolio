@@ -1,0 +1,84 @@
+#skills{
+    display: block;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #EEEEEE;
+    font-size: 35pt;
+    margin-bottom: 70px;
+}
+
+.blink{
+    font-style: bold;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function:steps(1);
+    animation-iteration-count:Infinite;
+}
+
+@keyframes blink{
+    0%{color:#AA14F0;}
+    50%{color:#000;}
+    100%{color:#AA14F0;}
+}
+
+.containerSkills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.html img{
+    width:  100px;
+    place-self: center;
+}
+
+.css img{
+    width: 100px;
+    place-self: center;
+}
+
+.js img{
+    width: 100px;
+    place-self: center;
+}
+
+.c img{
+    width: 100px;
+    place-self: center;
+}
+
+@media (max-width: 1440px) {
+    .containerSkills img{
+        display: inline;
+        width: 70px;
+    }
+
+    h2{
+        font-size: 30pt;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 720px){
+    .containerSkills img{
+        width: 50px;
+    }
+
+    h2{
+        font-size: 20pt;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 540px){
+    .containerSkills img{
+        width: 40px;
+    }
+
+    h2{
+        font-size: 15pt;
+        margin-bottom: 20px;
+    }
+}

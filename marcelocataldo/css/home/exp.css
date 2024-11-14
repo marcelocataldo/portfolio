@@ -1,0 +1,100 @@
+#exp{
+    display: block;
+}
+
+
+#exp h2{
+    margin-bottom: 70px;
+    font-size: 35pt;
+}
+
+.containerExp{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 60px;
+}
+
+#flix, #quarto{
+    margin-bottom: 80px;
+}
+
+
+.logoExp{
+    text-align: right;
+}
+
+.logoExp img{
+    margin-right: 20px;
+    border-radius: 10%;
+}
+
+.textoExp{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18pt;
+    font-weight: 600;
+}
+
+
+@media (max-width: 1440px) {
+    #exp h2{
+        margin-bottom: 80px;
+        font-size: 30pt;
+    }
+
+    .logoExp{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .logoExp img{
+        width: 110px;
+    }
+}
+
+@media (max-width: 960px){
+    .containerExp{
+        text-align: left;
+        display: inline-block;
+        gap: 60px;
+    }
+
+    .textoExp{
+        font-size: 14pt;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 720px){
+    #exp h2{
+        margin-bottom: 40px;
+        font-size: 20pt;
+    }
+
+    .logoExp{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .logoExp img{
+        width: 100px;
+    }
+}
+
+@media (max-width: 540px){
+    #exp h2{
+        margin-bottom: 40px;
+        font-size: 15pt;
+    }
+
+    .textoExp{
+        font-size: 10pt;
+        font-weight: 600;
+    }
+
+    .logoExp img{
+        width: 70px;
+    }
+}
+
+
+

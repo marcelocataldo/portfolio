@@ -1,0 +1,34 @@
+/* Para telas com largura de até 1920px */
+@media (max-width: 1920px) {
+    /* Seus ajustes para telas de até 1920px */
+}
+
+/* Para telas com largura de até 1440px */
+@media (max-width: 1440px) {
+    /* Seus ajustes para telas de até 1440px */
+}
+
+/* Para telas com largura de até 1280px */
+@media (max-width: 1280px) {
+    /* Seus ajustes para telas de até 1280px */
+}
+
+/* Para telas com largura de até 960px */
+@media (max-width: 960px) {
+    /* Seus ajustes para telas de até 960px */
+}
+
+/* Para telas com largura de até 720px */
+@media (max-width: 720px) {
+    /* Seus ajustes para telas de até 720px */
+}
+
+/* Para telas com largura de até 540px */
+@media (max-width: 540px) {
+    /* Seus ajustes para telas de até 540px */
+}
+
+/* Para telas com largura de até 460px */
+@media (max-width: 460px) {
+    /* Seus ajustes para telas de até 460px */
+}

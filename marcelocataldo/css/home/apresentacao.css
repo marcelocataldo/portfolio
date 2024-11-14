@@ -1,0 +1,158 @@
+#apresentacao{
+    display: block;
+    background-color: #000000;
+    margin-top: 100px;
+}
+
+.containerApresentacao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.textoApresentacao{
+    color: white;
+    text-align: left;
+    font-size: 35pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.textoApresentacao .cor{
+    color: #AA14F0;
+}
+
+.textoApresentacao a{
+    text-decoration: none;
+    color: #AA14F0;
+    border: 1px solid #BC8CF2;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20pt;
+}
+
+.textoApresentacao a:hover{
+    transition: 200ms;
+    border: #AA14F0;
+    background-color: #AA14F0;
+    color: #000000;
+}
+
+.textoApresentacao h1{
+    margin-top: -40px;
+    font-size: 35pt;
+    color: #EEEEEE;
+}
+
+.imagemApresentacao{
+    text-align: right;
+}
+
+.imagemApresentacao img{
+    filter: grayscale(1);
+    height: 450px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+@media (max-width: 1440px){
+    .textoApresentacao{
+        font-size: 25pt;
+    }
+
+    .textoApresentacao h1{
+        margin-top: -30px;
+        font-size: 25pt;
+    }
+
+    .containerApresentacao{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .imagemApresentacao img{
+        height: 350px;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .containerApresentacao{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 960px) {
+    .textoApresentacao{
+        font-size: 25pt;
+    }
+
+    .textoApresentacao h1{
+        margin-top: -40px;
+        font-size: 25pt;
+    }
+
+    .containerApresentacao{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .imagemApresentacao img{
+        height: 250px;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 720px) {
+    .containerApresentacao{
+        display: inline;
+        width: 100%;
+    }
+
+    .textoApresentacao{
+        font-size: 20pt;
+    }
+
+    .textoApresentacao h1{
+        margin-top: -25px;
+        font-size: 20pt;
+    }
+
+    .imagemApresentacao{
+        display: none;
+    }
+
+    .textoApresentacao a{
+        padding: 5px;
+        font-size: 10pt;
+        border-radius: 5%;
+    }
+    
+}
+
+@media (max-width: 540px){
+    .textoApresentacao{
+        font-size: 15pt;
+    }
+    
+    .textoApresentacao h1{
+        margin-top: -15px;
+        font-size: 10pt;
+    }
+
+    .textoApresentacao a{
+        padding: 5px;
+        font-size: 10pt;
+        border-radius: 5%;
+    }
+}
+
+
+@media (max-width: 460px) {
+    
+}
+
+
+
+
+
